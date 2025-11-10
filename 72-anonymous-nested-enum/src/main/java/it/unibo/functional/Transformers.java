@@ -131,7 +131,7 @@ public final class Transformers {
             @Override
             public Boolean call(I input) {
 
-                return !test.call(input);
+                return !test.call(input); 
             }
             
         });
